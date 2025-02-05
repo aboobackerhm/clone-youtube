@@ -1,0 +1,142 @@
+
+.bodycontan{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(235, 226, 226);
+    z-index:100;
+    margin-bottom: 25px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    
+
+}
+.youtube-logo{
+    height: 20px;
+    margin-left: 10px;
+    
+
+}
+.hambrcation-mean{
+    height: 25px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.center{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    
+    
+}
+.search-bar{
+    flex: 1;
+    height: 30px;
+    padding-left: 12px;
+    border-start-start-radius: 18px;
+    border-end-start-radius: 18px;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgba( 0, 0, 0, 0) ;
+    box-shadow: inset 1px 2px 3px rgba(0 0 0 0.005);
+    color: black;
+    outline-color: aliceblue;
+
+}
+.search-bar::placeholder{
+    font-family: arial;
+    font-size: 15px;
+    border-width: 1px;
+
+}
+.search-image{
+    height: 30px;
+    margin-top: px;
+}
+.vioce-image{
+    width: 100%;
+    
+    
+}
+.search-button{
+    width: 70px;
+    height: 34px;;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(226, 232, 236);
+    border-left: -1px;
+    border-end-end-radius: 17px;
+    border-start-end-radius: 17px;
+
+}
+.voice-button{
+    width: 40px;
+    height: 36px;
+    margin-left: 15px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color:rgb(226, 232, 236) ;
+
+}
+.right{
+    display: flex;
+
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+.create-button{
+    width: 80px;
+    height: 36px;
+    background-color:rgb(226, 232, 236);
+    border-radius:18px ;
+    border: none;
+    
+}
+.ball-icon{
+    width: 30px;
+}
+.notification-icon-div{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    background-color: rgb(218, 5, 5);
+    color: white;
+    top: -3px;
+    right:-4px ;
+    font-family: arial;
+    font-weight: 500;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+}
+.channel-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+

@@ -1,0 +1,29 @@
+.left-fixed-section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 77px;
+    z-index: 300;
+
+}
+.sidebare-link{
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.sidebare-link:hover{
+    background-color:rgb(241, 239, 239);
+}
+.sidebare-link img{
+    height: 25px;
+    margin-bottom: 4px;
+}
+.sidebare-link div{
+    font-family: arial;
+    font-size: 10px;
+}
